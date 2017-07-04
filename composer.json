@@ -1,0 +1,22 @@
+{
+    "type": "library",
+    "name": "dcabrejas/magento-rate-limit",
+    "description": "Rate Limiting Library With Token Bucket Algorithm with Magento Adapter",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.5",
+        "touhonoob/rate-limit": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dcabrejas",
+            "email": "dcabrejas@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dcabrejas\\RateLimit\\": "src/"
+        }
+    }
+}
